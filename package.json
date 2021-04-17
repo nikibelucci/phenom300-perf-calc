@@ -1,0 +1,44 @@
+{
+  "name": "phenom-300-weight-balance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server public/",
+    "build": "webpack --config webpack.config.prod.js -p",
+    "dev-server": "webpack-dev-server"
+  },
+  "author": "PS",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "formik": "^1.4.0",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.14.1",
+    "normalize.css": "^7.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-modal": "^3.7.1",
+    "react-router-dom": "^4.3.1",
+    "react-table": "^6.8.6",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "validator": "^9.4.1",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^7.0.2",
+    "html-webpack-plugin": "^5.3.1"
+  }
+}

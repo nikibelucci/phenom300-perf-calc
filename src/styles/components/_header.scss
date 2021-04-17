@@ -1,0 +1,45 @@
+.header {
+  background: $off-black;
+  color: white;
+  padding: $m-size 0;
+}
+
+.header__title {
+  font-size: $l-size;
+  margin: 0;
+}
+
+.header__subtitle {
+  color: white;
+  font-size: $m-size;
+  font-weight: 500;
+  margin: 0;
+  padding: $s-size;
+}
+
+.header__list {
+  display: flex;
+  list-style-type: none;
+  margin: 1;
+  padding: 0 $m-size;
+  justify-content: space-between;
+}
+
+.header__list li {
+  display: inline-block;
+  background: $off-white;
+}
+
+.header__list li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .header {
+    margin-bottom: $m-size;
+  }
+}

@@ -1,0 +1,58 @@
+.airportdata__box {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: $m-size;
+}
+
+.airportdata__rwyTable {
+  color: $off-black;
+  font-size: $m-size;
+}
+
+.airportdata__tableBackground {
+  background: white;
+}
+
+.airportdata__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.airportdata__text {
+  color: white;
+  font-weight: 400;
+  font-size: 1.9rem;
+  margin: 0;
+  word-break: normal;
+  padding-right: 10px;
+  align-items: center;
+  display: flex;
+}
+
+.airportdata__text__header {
+  color: white;
+  font-weight: 400;
+  font-size: 2.1rem;
+  margin: 0;
+  word-break: normal;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.airportdata__wx_category {
+  border: 2px solid white;
+  padding: 10px 40px;
+  background: #dddddd;
+  width: 1px;
+  height: 60px;
+  border-radius: 100px;
+  transform: scale(0.2, 0.2);
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .airportdata__box {
+    flex-direction: row;
+  }
+}

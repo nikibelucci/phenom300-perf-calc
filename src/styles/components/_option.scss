@@ -1,0 +1,33 @@
+.option {
+  border-bottom: 1px solid lighten($light-blue, 10%);
+  display: flex;
+  justify-content: space-between;
+  padding: $m-size $m-size;
+}
+
+.option__text {
+  color: white;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: 0;
+  word-break: normal;
+  padding-right: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.collapse {
+  display: none;
+}
+
+.collapse.in {
+  display: block;
+}
+
+.option__bottom {
+  border-top: 1px solid lighten($light-blue, 10%);
+  display: flex;
+  justify-content: space-between;
+  padding: $m-size 0 0;
+}

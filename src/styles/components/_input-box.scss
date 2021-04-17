@@ -1,0 +1,25 @@
+.input-box {
+  border: 1px solid lighten($light-blue, 10%);
+  border-radius: 4px;
+  width: 30%;
+  padding: 12px 20px;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.input-box__disabled {
+  border: 1px solid lighten($light-blue, 10%);
+  border-radius: 4px;
+  width: 30%;
+  padding: 12px 20px;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.input__warning {
+  color: $off-white;
+  font-style: italic;
+  margin: $m-size 0 0 0;
+  padding: 0 $m-size;
+}
